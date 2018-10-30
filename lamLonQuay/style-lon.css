@@ -1,34 +1,31 @@
-/* {
-    box-sizing:  border-box;
-}*/
 #lon1{animation-name:lon1;}
 #lon2{animation-name:lon2 ;}
 #lon1,#lon2{
-    width: 5%;
+    width: 10%;
     position: fixed;
     animation-duration: 5s;
     animation-iteration-count:infinite;
     animation-timing-function: linear;
 }
 @keyframes lon1 {
-    0%{left: 0;top:0}
+    0%{left: 50%;top:0}
     50%{left: 90%;top:0}
-    100%{left: 0;top: 0}
+    100%{left: 50%;top: 0}
 }
 @keyframes lon2 {
-    0%{left:90%;top:0}
-    50%{left: 0;top:0}
-    100%{left: 90%;top: 0}
+    0%{left:0 ;top:0}
+    50%{left: 50%;top:0}
+    100%{left: 0;top: 0}
 }
-#p2 {
+/*#p2 {
     width: 500px;
     height: 500px;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 100%;
+    left: 80%;
     transform: translate(-50%,-50%);
-}
-#a {animation-name:lona ;}
+}*/
+/*#a {animation-name:lona ;}
 #b {animation-name:lonb ;}
 #a, #b {
     width: 100%;
@@ -57,4 +54,4 @@
 @keyframes lonb {
     0%{transform: rotate(45deg)}
     100%{transform: rotate(405deg)}
-}
+}*/
